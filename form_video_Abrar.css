@@ -1,0 +1,1746 @@
+@font-face {
+    font-family: phenomena-Black;
+    src: url(./disciple-fonts/disciple-fonts/Phenomena-Black.ttf);
+}
+
+@font-face {
+    font-family: phenomena-Bold;
+    src: url(./disciple-fonts/disciple-fonts/Phenomena-Bold.ttf);
+}
+
+@font-face {
+    font-family: Phenomena-ExtraBold;
+    src: url(./disciple-fonts/disciple-fonts/Phenomena-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Phenomena-ExtraLight;
+    src: url(./disciple-fonts/disciple-fonts/Phenomena-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Phenomena-Light;
+    src: url(./disciple-fonts/disciple-fonts/Phenomena-Light.ttf);
+}
+
+@font-face {
+    font-family: Phenomena-Regular;
+    src: url(./disciple-fonts/disciple-fonts/Phenomena-Regular.ttf);
+}
+
+@font-face {
+    font-family: Phenomena-Thin;
+    src: url(./disciple-fonts/disciple-fonts/Phenomena-Thin.ttf);
+}
+
+@font-face {
+    font-family: SueEllenFrancisco-Regular;
+    src: url(./disciple-fonts/disciple-fonts/SueEllenFrancisco-Regular.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+}
+
+
+/* header css */
+
+
+/* header start */
+
+.header {
+    background-color: #EAEAEA;
+}
+
+.header-media {
+    background-color: #EAEAEA;
+    height: 650px;
+}
+
+.header-img img {
+    height: 60px;
+    width: 260px;
+    margin-top: 12px;
+    mix-blend-mode: darken;
+    margin-left: 100px;
+}
+
+.banner {
+    background: url('./disciple-fonts/disciple-fonts/moein-rezaalizade-4pc1GpZhJP0-unsplash.png') no-repeat 0 0;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.banner-livelihood {
+    background: url('./disciple-fonts/disciple-fonts/at-infinity-KXBkFaaFdPs-unsplash.png') no-repeat 0 0;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.banner-sustain {
+    background: url('./disciple-fonts/disciple-fonts/at-infinity-KXBkFaaFdPs-unsplash.png') no-repeat 0 0;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.banner-urban {
+    background: url('./disciple-fonts/disciple-fonts/photo-boards-D0xQQsZovws-unsplash.png') no-repeat 0 0;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.banner-media {
+    background: url('./disciple-fonts/disciple-fonts/sam-mcghee-KieCLNzKoBo-unsplash.png') no-repeat 0 0;
+    background-size: cover;
+    width: 100%;
+    height: 380px;
+}
+
+.nav-links>ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    position: relative !important;
+}
+
+#stay-connected-2 {
+    display: none !important;
+}
+
+.nav-link>a {
+    line-height: 4rem;
+    color: black;
+    padding: 0 1rem;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    display: flex;
+    font-weight: 900;
+    font-family: phenomena-bold;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.nav-link:hover a {
+    transform: scale(1.1);
+}
+
+#explore-mobile {
+    display: none;
+}
+
+.dropdown {
+    position: absolute !important;
+    top: 100%;
+    left: 0;
+    width: 18rem;
+    transform: translateY(10px);
+    opacity: 0;
+    cursor: pointer;
+    transition: .5s;
+    background-color: #fff;
+}
+
+.dropdown-link>a {
+    /* background-color: #fff; */
+    display: flex;
+    color: black;
+    padding: .5rem 1rem .5rem 2rem;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    font-weight: 100;
+    font-family: phenomena-bold;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.nav-links li {
+    padding: 0rem 1rem 0rem 0rem;
+    text-align: center;
+}
+
+.dropdown ul {
+    list-style: none;
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    top: -6.5px;
+    left: 90px;
+    width: 11px;
+    height: 11px;
+    background-color: #fff;
+    transform: rotate(45deg);
+}
+
+.nav-link:hover>.dropdown,
+.dropdown-link:hover>.dropdown {
+    transform: translate(0, 0);
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+/* heaader end */
+
+#corona_man {
+    width: 500px;
+    height: 355px;
+}
+
+.main-img {
+    width: 100%;
+}
+
+.banner {
+    background-color: #EAEAEA;
+}
+
+.banner-icon {
+    display: flex;
+    color: #fff;
+    margin-left: 95px;
+    letter-spacing: 2px;
+}
+
+.banner-icon a {
+    color: #fff;
+    text-decoration: none;
+    font-family: phenomena-bold;
+    font-size: 20px;
+    font-weight: 300 !important;
+    letter-spacing: 1px;
+}
+
+.banner-icon i {
+    font-size: 26px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.banner h2 {
+    color: #fff;
+    font-family: SueEllenFrancisco-Regular;
+    font-size: 40px;
+    padding-left: 100px;
+    padding-top: 80px;
+}
+
+#read_more_button_header {
+    background-color: #FFD868;
+    border-radius: 100px;
+    padding: 10px 40px 10px 40px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px 1px rgb(185, 183, 183);
+    border: none;
+    font-family: Phenomena-Regular;
+}
+
+
+/* form and video css */
+
+#heart_img {
+    margin-left: 40px;
+    margin-top: -62px;
+}
+
+#donation {
+    margin-left: 90px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgb(223, 215, 215);
+    font-family: phenomena-bold;
+}
+
+#donor {
+    margin-left: 90px;
+    color: white;
+    font-size: 39px;
+    margin-top: -15px;
+    font-family: SueEllenFrancisco-Regular;
+}
+
+.inputs {
+    border-radius: 100px;
+    background-color: transparent;
+    border: 2px solid rgb(149, 170, 214);
+    box-shadow: 0 0 10px 0.9px rgb(95, 95, 95);
+}
+
+.inputs::placeholder {
+    color: rgb(216, 223, 238);
+    padding-left: 20px;
+    font-family: Phenomena-Regular;
+}
+
+select {
+    border-radius: 100px;
+    color: rgb(216, 223, 238);
+    background-color: transparent;
+    width: 200px;
+    height: 45px;
+    padding-left: 10px;
+    box-shadow: 0 0 10px 0.9px rgb(95, 95, 95);
+    border: 2px solid rgb(149, 170, 214);
+}
+
+#making_donation {
+    background-color: #FFD868;
+    color: rgb(51, 50, 50);
+    font-weight: 700;
+    padding: 10px 40px 10px 40px;
+    margin-left: 10px;
+    font-family: phenomena-Black;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 0 0 10px 0.9px rgb(70, 69, 69);
+    font-size: 18px;
+}
+
+#save_lives {
+    color: rgb(216, 223, 238);
+    margin-left: 70px;
+    font-family: Phenomena-Regular;
+}
+
+
+/* video section */
+
+#latest_video_section {
+    margin-left: 80px;
+    margin-top: 100px;
+    display: flex;
+}
+
+#latest_video_heading {
+    font-family: SueEllenFrancisco-Regular;
+}
+
+.rs-vedio {
+    background-color: rgb(149, 170, 214);
+    width: 438px;
+    margin-top: 50px;
+    padding-top: 15px;
+    border-radius: 10px;
+    margin-left: 80px;
+}
+
+iframe {
+    border-radius: 10px;
+}
+
+.backgroundPhoto {
+    background-image: url(./disciple-fonts/disciple-fonts/Group\ 71.png);
+    background-repeat: no-repeat;
+    background-size: 380px;
+    position: relative;
+    background-position-x: 320px;
+    background-position-y: 70px;
+}
+
+
+/* #headline_col{
+    position: relative;
+    left: 670px;
+    bottom: 410px;
+    z-index: 1;
+    background-image: none;
+    
+} */
+
+#newsAndEvents {
+    margin-top: 100px;
+    display: flex;
+    background-size: 200px;
+}
+
+.news_rows {
+    width: 570px;
+    height: auto;
+    /* background-color: green; */
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid rgb(99, 96, 96);
+    margin-left: -10px;
+}
+
+#news_headline {
+    margin-top: 10px;
+    font-family: phenomena-Bold;
+    font-size: 18px;
+}
+
+#publish_button_sec {
+    display: flex;
+}
+
+#read_more_button {
+    background-color: #FFD868;
+    font-family: Phenomena-Regular;
+    border-radius: 10px;
+    position: relative;
+    left: 130px;
+    border: none;
+    font-size: 13px;
+    padding: 2px 30px 2px 30px;
+}
+
+.mobile-news-section {
+    display: none;
+}
+
+
+/* footer css */
+
+.footer {
+    margin-top: 50px;
+    border: solid black 3px;
+    background-color: #212121;
+    padding: 30px;
+}
+
+.footer_box {
+    padding: 0px 100px 0px 100px;
+}
+
+.logo {
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.social {
+    height: 30px;
+}
+
+.content {
+    color: white;
+    font-family: phenomena-regular;
+    font-size: 20px;
+}
+
+.content1 {
+    color: white;
+    font-family: phenomena-bold;
+    font-size: 19px;
+}
+
+.divide {
+    background-color: white;
+    margin: 0px 100px 30px 100px;
+}
+
+
+/* volunteer need */
+
+#volunteer_need {
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+/* media section */
+
+#photo-galary-heading {
+    font-family: SueEllenFrancisco-Regular;
+}
+
+.photo-gallery-heading {
+    display: flex;
+    margin-top: 150px;
+    margin-left: 105px;
+}
+
+.small-pics img {
+    width: 222px;
+    height: 100;
+    margin-top: 50px;
+}
+
+.small-pics-2 img {
+    width: 222px;
+    height: 100;
+}
+
+.big-pic img {
+    width: 450px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.photos {
+    background-color: #dfdede;
+    border-radius: 85px 85px 0px 0px;
+    position: relative;
+    top: -90px;
+    height: 600px;
+}
+
+.veiw-all {
+    width: 300px;
+    height: 80px;
+    background-color: #FFD868;
+    border-radius: 30px 0px 0px 30px;
+    margin-left: 374px;
+    margin-top: 10px;
+}
+
+.veiw-all img {
+    width: 140px;
+    height: 50px;
+    margin-top: 12px;
+    margin-left: 50px;
+}
+
+.icon-div {
+    margin-left: 850px;
+}
+
+.icon-div i {
+    font-size: 50px;
+}
+
+.icon-div-2 i {
+    font-size: 50px;
+}
+
+.icon-div-2 {
+    margin-left: 600px;
+}
+
+#latest__section-news {
+    margin-top: 80px;
+}
+
+.news_rows-2 {
+    width: 550px;
+    height: auto;
+    /* background-color: green; */
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid rgb(99, 96, 96);
+    margin-left: -10px;
+    background-color: #fff;
+}
+
+.card-1 {
+    margin-left: 30px;
+}
+
+#read_more_button-2 {
+    background-color: #FFD868;
+    font-family: Phenomena-Regular;
+    border-radius: 10px;
+    height: 35px;
+    border: none;
+    font-size: 13px;
+    padding: 2px 30px 2px 30px;
+}
+
+.icon-div-3 i {
+    font-size: 50px;
+}
+
+.icon-div-3 {
+    margin-left: 850px;
+}
+
+
+/* home page */
+
+.home-left img {
+    height: 70px;
+    width: 270px;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+.our-mission {
+    width: 240px;
+    height: 45px;
+    background-color: #07689F;
+    color: rgb(247, 242, 242);
+    font-family: Phenomena-Regular;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.giving-help h2 {
+    font-family: SueEllenFrancisco-Regular;
+    color: #07689F;
+    font-weight: 700;
+    font-size: 55px;
+    margin-left: 100px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.giving-help-2 h2 {
+    font-family: SueEllenFrancisco-Regular;
+    color: #07689F;
+    font-weight: 700;
+    font-size: 55px;
+    margin-left: 100px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.giving-help img {
+    width: 100px;
+    margin-right: 60px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.home-left p {
+    margin-left: 100px;
+    font-family: Phenomena-Regular;
+    font-size: 22px;
+    color: rgb(141, 133, 133);
+}
+
+.explore-btn {
+    width: 200px;
+    height: 55px;
+    background-color: #ffd868;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+
+.explore-btn h6 {
+    font-family: phenomena-Bold;
+    font-size: 22px;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.explore-btn i {
+    font-size: 22px;
+    margin-left: 10px;
+    padding-top: 15px;
+}
+
+.stay-connacted h6 {
+    font-family: SueEllenFrancisco-Regular;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.stay-connacted img {
+    height: 35px;
+    width: 160px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.indicators h5 {
+    font-family: Phenomena-Regular;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+#indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #998e8e;
+    display: block;
+    display: flex;
+    display: flex-end;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+.indicators {
+    display: flex;
+    display: flex-end;
+}
+
+.arrow-indicator {
+    display: flex;
+    position: relative;
+    left: 390px;
+    top: 20px;
+}
+
+.arrow-indicator i {
+    font-size: 35px;
+    margin-left: 5px;
+    color: #898989;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+/* mission&vission */
+
+.core {
+    padding-top: 30px;
+}
+
+.box4 {
+    margin-top: 60px;
+    border-radius: 10px;
+    padding-left: 50px!important;
+    padding-right: 50px!important;
+    /* width: 100px!important; */
+    margin-bottom: 20px !important;
+    background-color: #EBF7FF;
+    height: auto;
+    width: 1000px;
+    margin-left: 30px;
+}
+
+.box4 h1 {
+    text-align: center;
+    margin-bottom: 50px !important;
+    /* padding-left:10px; */
+}
+
+.inp {
+    border-radius: 100px;
+    background-color: transparent;
+    border: 2px solid rgb(149, 170, 214);
+    box-shadow: 0 0 10px 0.9px rgb(95, 95, 95);
+}
+
+.inp::placeholder {
+    color: rgb(216, 223, 238);
+    padding-left: 20px;
+    font-family: Phenomena-Regular;
+}
+
+.box4 input {
+    background-color: #07689F !important;
+    margin-bottom: 20px;
+    width: 220px;
+}
+
+.box4 button {
+    padding: 7px !important;
+    width: 220px !important;
+    background-color: #FFD868 !important;
+    border-color: #FFD868 !important;
+    font-family: phenomena-regular;
+}
+
+.box4 p {
+    font-family: phenomena-regular;
+    /* padding-left:40px;    */
+    text-align: center;
+}
+
+.box4 img {
+    width: 400px;
+    padding-left: 70px;
+}
+
+.boxes {
+    height: 330px;
+}
+
+.boxes div {
+    margin-top: 40px;
+}
+
+.mav1 {
+    margin-top: 150px;
+    margin-left: -20px;
+}
+
+.mav {
+    padding-right: 20px;
+}
+
+.mav h3 {
+    font-family: phenomena-extrabold;
+    margin-top: 25px;
+}
+
+.mav p {
+    font-family: phenomena-regular;
+    font-size: 19px;
+}
+
+.charity {
+    display: flex;
+    padding-left: 30px
+}
+
+#div1 {
+    height: 90px;
+    position: relative;
+    left: 400px;
+    top: 90px;
+    width: 100px;
+}
+
+#div2 {
+    height: 90px;
+    position: relative;
+    left: 915px;
+    top: 90px;
+    width: 100px;
+}
+
+#div4 {
+    height: 90px;
+    position: relative;
+    left: 600px;
+    bottom: 90px;
+    width: 100px;
+}
+
+.content2 {
+    font-family: SueEllenFrancisco-Regular;
+    color: white;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+
+.content2 p {
+    font-family: phenomena-regular;
+    font-size: 20px;
+}
+
+
+/* covid awareness */
+
+#covid_aware {
+    background-image: url(./disciple-fonts/disciple-fonts/Ellipse39.png);
+    background-repeat: no-repeat;
+    background-position: 30px 50px;
+    /* padding-left: 80px; */
+}
+
+#covid_aware img {
+    margin-left: 10px;
+}
+
+
+/* some glimpses css */
+
+.galimpses img {
+    width: 80px;
+    height: 80px;
+    margin-top: -5px;
+}
+
+.galimpses {
+    justify-content: center;
+}
+
+.arrow-indicator_glimpses {
+    justify-content: flex-end;
+    margin-right: 80px;
+    display: flex;
+}
+
+.arrow-indicator_glimpses i {
+    font-size: 40px;
+}
+
+.mobile-logo {
+    display: none;
+}
+
+#our-mission {
+    display: none;
+}
+
+.toggle-for-mobile {
+    display: none;
+}
+
+.caro-bottom {
+    display: none;
+}
+
+
+/* media queries */
+
+
+/* for 767 */
+
+@media screen and (max-width: 767px) {
+    .giving-help h2 {
+        font-family: SueEllenFrancisco-Regular;
+        color: #07689F;
+        font-weight: 700;
+        font-size: 35px;
+        margin-left: 245px;
+        margin-top: 20px;
+        letter-spacing: 1px;
+    }
+    #stay-connected-2 {
+        display: block;
+    }
+    #involves_giving {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        color: black;
+    }
+    .giving-help-2 h2 {
+        font-family: SueEllenFrancisco-Regular;
+        color: #07689F;
+        font-weight: 700;
+        font-size: 40px;
+        margin-left: 200px;
+        margin-top: 20px;
+        letter-spacing: 1px;
+    }
+    .giving-help img {
+        width: 70px;
+        margin-right: 60px;
+        margin-top: 0px;
+        margin-left: 10px;
+        height: 50px;
+    }
+    .home-left p {
+        margin-left: 70px;
+        font-family: Phenomena-Regular;
+        font-size: 20px;
+        color: rgb(141, 133, 133);
+    }
+    .explore-btn {
+        margin-top: 40px;
+        width: 200px;
+        height: 55px;
+        background-color: #ffd868;
+        border-radius: 20px;
+        margin-left: 120px;
+    }
+    .explore-btn h6 {
+        font-family: phenomena-Bold;
+        font-size: 22px;
+        justify-content: center;
+        padding-top: 10px;
+        padding-left: 30px;
+    }
+    .explore-btn i {
+        font-size: 22px;
+        margin-left: 10px;
+        padding-top: 15px;
+    }
+    .carousel-sect {
+        background-color: #FFD868;
+    }
+    .caro-bottom {
+        display: block;
+        font-family: Phenomena-Regular;
+    }
+    #explore-btn {
+        display: none !important;
+    }
+    #stay-connacted {
+        display: none !important;
+    }
+    .stay-connacted h6 {
+        font-family: SueEllenFrancisco-Regular;
+        margin-left: 40px;
+        margin-top: 30px;
+        font-size: 25px;
+    }
+    .stay-connacted img {
+        height: 35px;
+        width: 160px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    #our-mission {
+        width: 240px;
+        height: 45px;
+        background-color: #07689F;
+        color: rgb(247, 242, 242);
+        font-family: Phenomena-Regular;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 10px;
+        /* margin-left: 180px; */
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .toggle-for-mobile {
+        display: block;
+    }
+    .home-left {
+        background-color: #FFD868;
+        position: relative;
+        margin-top: -50px;
+        z-index: -1;
+    }
+    .home-toggle {
+        position: absolute;
+        top: -620px;
+    }
+    #our-mission {
+        display: block;
+        position: relative;
+        bottom: 35px;
+        z-index: 1;
+    }
+    .our-mission {
+        display: none;
+    }
+    .mobile-logo {
+        display: block;
+        height: 75px;
+        width: 250px;
+    }
+    .disp-logo {
+        display: none;
+    }
+    .rs-vedio {
+        background-color: rgb(149, 170, 214);
+        width: auto;
+        margin-top: 50px;
+        padding-top: 15px;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+    .urban-para p {
+        margin-top: -100px;
+    }
+    .urban-para {
+        order: -1;
+    }
+    .mobile-news-section {
+        display: block !important;
+    }
+    .backgroundPhoto {
+        display: none;
+    }
+    .icon-div-5 i {
+        font-size: 35px;
+    }
+    .icon-div-5 {
+        display: flex;
+        justify-content: flex-end;
+    }
+    #newsAndEvents {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        background-size: 200px;
+    }
+    .logo {
+        height: 50px;
+    }
+    .banner-livelihood {
+        background: url('./disciple-fonts/disciple-fonts/at-infinity-KXBkFaaFdPs-unsplash.png') no-repeat 0 0;
+        background-size: 100% 200px;
+        /* width: 100%; */
+        /* height: 200px; */
+    }
+    .social {
+        height: 20px;
+        margin-bottom: 20px;
+    }
+    .footer_box {
+        padding: 0px 30px 0px 30px;
+        line-height: normal;
+    }
+    #navigation {
+        line-height: 18px;
+        padding-left: 80px;
+        margin-bottom: 60px;
+    }
+    #about_us_sec {
+        line-height: 18px;
+        padding-left: 50px;
+    }
+    #logo_add {
+        padding-left: 50px;
+        padding-right: 0px;
+        line-height: 20px;
+    }
+    #contact_us {
+        padding-left: 20px;
+        padding-right: 0px;
+        margin-left: 30px;
+    }
+    .divide {
+        margin: 20px 0px 30px 0px;
+    }
+    .content1 {
+        margin-left: 4%;
+    }
+    #privacy {
+        margin-left: 0px;
+    }
+    #term_cond {
+        margin-left: 0px;
+    }
+    #address_part {
+        display: none;
+    }
+    #gmail_id::after {
+        content: "C-20,Community Center,1st floor,nayyar Tower,janakpuri,new Delhi Pin code-110 058 ";
+    }
+    .socials {
+        display: inline-block;
+    }
+    #navigation {
+        padding-left: 50px;
+    }
+    /* footer end */
+    /* header start */
+    .dropdown {
+        position: absolute !important;
+        top: 100%;
+        /* left: 25%; */
+        width: 100%;
+        transform: translateY(10px);
+        opacity: 0;
+        cursor: pointer;
+        transition: .5s;
+        background-color: #fff;
+    }
+    .dropdown-link>a {
+        display: flex;
+        color: black;
+        padding: .5rem 1rem .5rem 2rem;
+        text-decoration: none;
+        list-style: none;
+        align-items: center;
+        font-weight: 100;
+        font-family: phenomena-bold;
+        justify-content: space-between;
+        font-size: 20px;
+    }
+    #dropdown-mobile {
+        display: none;
+        cursor: pointer;
+    }
+    .dropdown-link:hover>.dropdown {
+        transform: translate(0, 0);
+        opacity: 1;
+        pointer-events: auto;
+    }
+    .nav-link:hover a {
+        transform: none;
+        text-decoration: none;
+    }
+    .nav-link>a {
+        line-height: 4rem;
+        color: black;
+        padding: 0 1rem;
+        letter-spacing: 1px;
+        font-size: 1.2rem;
+        display: flex;
+        font-weight: 900;
+        font-family: phenomena-bold;
+        align-items: left;
+        justify-content: space-between;
+        text-decoration: none;
+    }
+    .nav-links>ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+    }
+    #explore-desk {
+        display: none;
+    }
+    #explore-mobile {
+        display: block;
+    }
+    .mobile_icon {
+        display: inline-block !important;
+        position: relative;
+        left: 92%;
+        bottom: 40px;
+        margin-top: 0px;
+        cursor: pointer;
+    }
+    .mobile_icon-a {
+        display: inline-block !important;
+        position: relative;
+        left: 92%;
+        bottom: 40px;
+        cursor: pointer;
+    }
+    #check_class {
+        display: none;
+    }
+    #check_class1 {
+        display: none;
+    }
+    .dropdown ul {
+        list-style: none;
+        position: relative;
+    }
+    .arrow {
+        position: absolute;
+        top: -6.5px;
+        left: 50%;
+        width: 11px;
+        height: 11px;
+        background-color: #fff;
+        transform: rotate(45deg);
+    }
+    /*header end  */
+    /* blue box donation  */
+    #donation,
+    #donor {
+        padding-left: 5%;
+    }
+    #donor {
+        font-size: 25px;
+    }
+    .img_heart_donation {
+        padding-left: 16% !important;
+        position: relative;
+        left: 53%;
+        bottom: 30%;
+    }
+    #heart_img {
+        margin-left: 0px;
+        width: 100px;
+        /* margin-top: -40px; */
+    }
+    .input1 {
+        width: 70%;
+    }
+    .preferred_method {
+        display: flex;
+        justify-content: center;
+    }
+    #making_donation {
+        margin-top: 30px;
+    }
+    #donation_arrow {
+        display: none;
+    }
+    #save_lives {
+        margin-left: 0px;
+    }
+    /* blue box donation end */
+    /* .top_main_box{
+        align-items: center;
+    } */
+    .main_box {
+        margin-left: 0px !important;
+        position: relative;
+        /* left: 18%; */
+        width: 100% !important;
+        /* margin: 0 auto !important; */
+    }
+    .heart_image {
+        display: none;
+    }
+    /* mission and vision */
+    .mav1 {
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .mav {
+        position: relative;
+        margin-top: -70%;
+        margin-left: 35%;
+    }
+    .inp {
+        width: 100% !important;
+    }
+    #inp_email {
+        margin-left: 0px !important;
+    }
+    #sub_inp {
+        width: 100% !important;
+        margin-left: 0px !important;
+    }
+    #volunteer_need {
+        padding-left: 0px;
+    }
+    #para_below {
+        margin-top: 20px;
+    }
+    #vol_needed {
+        padding-left: 0px;
+    }
+    #blue_charity_box {
+        margin-left: 40%;
+    }
+    .charity {
+        padding-left: 0px !important;
+    }
+    #charity_id {
+        padding-left: 0px !important;
+        margin-left: -35px;
+    }
+    .content2 {
+        margin-left: 0px !important;
+    }
+    #charity_id2 {
+        margin-top: 80px !important;
+        margin-left: -40px !important;
+    }
+    .main_box {
+        display: block !important;
+    }
+    .img_div_2 {
+        bottom: 190px;
+        padding: 0px !important;
+    }
+    #img_id {
+        height: 350px;
+        width: 100%;
+    }
+    .box_class {
+        position: relative;
+        top: 340px;
+    }
+    #dis_management {
+        padding: 0px !important;
+    }
+    #not_show {
+        display: none;
+    }
+    #para_id {
+        font-size: 15px !important;
+        padding-left: 15px !important;
+        padding-right: 0px !important;
+    }
+    #learn_more {
+        font-size: 20px !important;
+        padding-left: 15px !important;
+    }
+    #our_story {
+        font-size: 28px !important;
+    }
+    #yellow_curve1 {
+        position: relative;
+        right: 58%;
+        transform: rotate(270deg);
+        top: 260%;
+    }
+    #yellow_curve2 {
+        position: relative;
+        left: 43.7%;
+        top: 450%;
+        transform: rotate(90deg);
+    }
+    #yellow_curve3 {
+        position: relative;
+        bottom: 460% !important;
+        margin-left: 0px !important;
+        right: 2.5%;
+        transform: rotate(90deg);
+    }
+    #yellow_curve4 {
+        position: relative;
+        left: 89.7%;
+        bottom: 240%;
+        transform: rotate(270deg);
+    }
+    #lac_id {
+        margin-top: 20% !important;
+    }
+    #featured {
+        margin-top: 20px !important;
+        margin-left: 0px !important;
+    }
+    #covid_headline,
+    #covid_news {
+        margin-left: 0px !important;
+    }
+    #covid_news {
+        margin-bottom: 20px !important;
+    }
+    #covid_read_more {
+        margin-left: 0px !important;
+        padding-top: 10px !important;
+    }
+    /* #outer_corona_man{
+    border-bottom: none;
+    } 
+    */
+    #corona_man {
+        width: 100% !important;
+    }
+}
+
+
+/* media query end for 767 */
+
+
+/*media query for 680 */
+
+@media screen and (max-width: 680px) {
+    .giving-help h2 {
+        font-family: SueEllenFrancisco-Regular;
+        color: #07689F;
+        font-weight: 700;
+        font-size: 35px;
+        margin-left: 205px;
+        margin-top: 20px;
+        letter-spacing: 1px;
+    }
+    .giving-help-2 h2 {
+        font-family: SueEllenFrancisco-Regular;
+        color: #07689F;
+        font-weight: 700;
+        font-size: 40px;
+        margin-left: 170px;
+        margin-top: 20px;
+        letter-spacing: 1px;
+    }
+    .giving-help img {
+        width: 70px;
+        margin-right: 60px;
+        margin-top: 0px;
+        margin-left: 10px;
+        height: 50px;
+    }
+}
+
+
+/* end for 680 */
+
+
+/* media query  for 567 */
+
+@media screen and (max-width: 575px) {
+    #contact_us {
+        padding-left: 0px;
+        line-height: 10px;
+        margin-left: 0px;
+    }
+    .footer_box {
+        padding: 0px 30px 0px 30px;
+        line-height: normal;
+    }
+    #gmail_id::after {
+        margin-top: 50px !important;
+        line-height: 26px;
+        margin-right: 20px;
+    }
+    .divide {
+        margin: 20px 0px 30px 0px;
+    }
+    .content1 {
+        margin-left: -15px !important;
+        margin-right: 0% !important;
+        padding: 0px !important;
+    }
+    #logo_add {
+        padding-left: 00px;
+    }
+    #navigation {
+        padding-left: 0px;
+        margin-bottom: 20px;
+        line-height: 10px;
+    }
+    #dis_man {
+        font-size: 45px !important;
+        padding-top: 20px;
+        padding-left: 60px;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    /* for blue box */
+    .input1 {
+        width: 100%;
+    }
+    #donation,
+    #donor {
+        margin-left: 20px;
+    }
+    .banner-livelihood {
+        background: url('./disciple-fonts/disciple-fonts/at-infinity-KXBkFaaFdPs-unsplash.png') no-repeat 0 0;
+        background-size: 100% 200px;
+        width: 100%;
+        height: 200px;
+    }
+    .banner-livelihood h2 {
+        font-size: 40px !important;
+    }
+    .banner-icon {
+        display: none;
+    }
+    .urban-para p {
+        margin-top: -10px;
+    }
+    .mav {
+        position: relative;
+        margin-top: -85%;
+        margin-left: 55%;
+    }
+    #yellow_curve1 {
+        position: relative;
+        right: 60% !important;
+    }
+    #yellow_curve2 {
+        position: relative;
+        left: 40% !important;
+        top: 450%;
+    }
+    #yellow_curve3 {
+        position: relative;
+        bottom: 460% !important;
+        margin-left: 0px !important;
+        right: 3.5% !important;
+        transform: rotate(90deg);
+    }
+    #yellow_curve4 {
+        position: relative;
+        left: 86% !important;
+        bottom: 240%;
+        transform: rotate(270deg);
+    }
+    .giving-help h2 {
+        font-family: SueEllenFrancisco-Regular;
+        color: #07689F;
+        font-weight: 700;
+        font-size: 35px;
+        margin-left: 100px;
+        text-align: center;
+        margin-top: 20px;
+        letter-spacing: 1px;
+    }
+    .giving-help-2 h2 {
+        margin-left: 00px;
+        text-align: center;
+    }
+    .giving-help img {
+        width: 60px;
+        margin-right: 60px;
+        margin-top: 0px;
+        margin-left: 10px;
+        height: 50px;
+    }
+    #involves_giving {
+        text-align: center;
+        padding-right: 50px;
+    }
+    .break_line_involves {
+        display: none;
+    }
+    #covid_news {
+        font-size: 15px !important;
+    }
+    #covid_read_more {
+        padding: 8px 20px 8px 20px !important;
+    }
+    #news_box {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
+
+
+/* end 485 */
+
+@media screen and (max-width: 675px) {
+    #yellow_curve1 {
+        position: relative;
+        right: 58%;
+        top: 260%;
+    }
+    #yellow_curve2 {
+        position: relative;
+        left: 42.7%;
+        top: 450%;
+    }
+    #yellow_curve3 {
+        position: relative;
+        bottom: 460% !important;
+        margin-left: 0px !important;
+        right: 2.5%;
+        transform: rotate(90deg);
+    }
+    #yellow_curve4 {
+        position: relative;
+        left: 88.7%;
+        bottom: 240%;
+        transform: rotate(270deg);
+    }
+}
+
+@media screen and (max-width: 590px) {
+    #yellow_curve1 {
+        position: relative;
+        right: 58%;
+        top: 260%;
+    }
+    #yellow_curve2 {
+        position: relative;
+        left: 42.2%;
+        top: 450%;
+    }
+    #yellow_curve3 {
+        position: relative;
+        bottom: 460% !important;
+        margin-left: 0px !important;
+        right: 2.5%;
+        transform: rotate(90deg);
+    }
+    #yellow_curve4 {
+        position: relative;
+        left: 88.1%;
+        bottom: 240%;
+        transform: rotate(270deg);
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #yellow_curve1 {
+        position: relative;
+        right: 58%;
+        top: 260%;
+    }
+    #yellow_curve2 {
+        position: relative;
+        left: 41.5%;
+        top: 450%;
+    }
+    #yellow_curve3 {
+        position: relative;
+        bottom: 460% !important;
+        margin-left: 0px !important;
+        right: 2.5%;
+        transform: rotate(90deg);
+    }
+    #yellow_curve4 {
+        position: relative;
+        left: 87.8%;
+        bottom: 240%;
+        transform: rotate(270deg);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #yellow_curve1 {
+        position: relative;
+        right: 58%;
+        top: 260%;
+    }
+    #yellow_curve2 {
+        position: relative;
+        left: 38.5% !important;
+        top: 450%;
+    }
+    #yellow_curve3 {
+        position: relative;
+        bottom: 460% !important;
+        margin-left: 0px !important;
+        right: 2.5%;
+        transform: rotate(90deg);
+    }
+    #yellow_curve4 {
+        position: relative;
+        left: 84% !important;
+        bottom: 240%;
+        transform: rotate(270deg);
+    }
+    #lac_id {
+        margin-left: -50px !important;
+        padding-left: 0px !important;
+    }
+    #charity_id2 {
+        margin-left: -50px !important;
+        padding-left: 0px !important;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .giving-help h2 {
+        font-size: 30px;
+        margin-left: 50px !important;
+    }
+    .giving-help img {
+        width: 60px;
+        margin-right: 00px;
+        margin-top: 0px;
+        margin-left: 10px;
+        height: 50px;
+    }
+    #involves_giving {
+        text-align: center;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    .mobile-logo {
+        width: 75%;
+    }
+    .giving-help-2 h2 {
+        margin-left: 0px !important;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .giving-help h2 {
+        font-size: 30px;
+        margin-left: 60px;
+    }
+    .giving-help img {
+        width: 60px;
+        margin-right: 00px;
+        margin-top: 0px;
+        margin-left: 10px;
+        height: 50px;
+    }
+    #involves_giving {
+        text-align: center;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    .mobile-logo {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .giving-help h2 {
+        font-size: 35px;
+        margin-left: 120px;
+    }
+    .giving-help img {
+        width: 60px;
+        margin-right: 00px;
+        margin-top: 0px;
+        margin-left: 10px;
+        height: 50px;
+    }
+    #involves_giving {
+        text-align: center;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    .mobile-logo {
+        width: 75%;
+    }
+    .giving-help-2 h2 {
+        margin-left: 70px;
+    }
+}

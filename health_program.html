@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet " href="./form_video.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <!-- header section -->
+
+    <!--  header start -->
+    <div class="container-fluid header p-0">
+        <div class="row">
+            <div class="col-lg-4  col- header-img">
+                <img src="./disciple-fonts/disciple-fonts/Group 63@2x.png" class="img-fluid img-responsive" alt="">
+
+            </div>
+            <div class="col-lg-8 nav-links" style="margin-top: 10px;">
+                <a href="javascript:void(0)" class="mobile_icon" onclick="slideshow() " style="display: none; ">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <ul id="check_class">
+                    <li class="nav-link">
+                        <a href="">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href=""><b>About Us+</b></a>
+                    </li>
+                    <li class="nav-link" id="explore-desk">
+                        <a href="">Explore Causes+</a>
+
+                        <div class="dropdown ">
+                            <ul>
+                                <li class="dropdown-link">
+                                    <a href="">Disaster Management Program</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="">Education & Literacy Program</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="">Health Program</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="">Livehood restoration </a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="">Sustainability Program </a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="">Urban Poverty Program </a>
+                                </li>
+                                <div class="arrow "></div>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-link">
+                        <a href="">Project+</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="">Media+</a>
+                    </li>
+                    <li class="nav-link" id="contact-us">
+                        <a href="">Contact us</a>
+                    </li>
+                    <li class="nav-link" id="explore-mobile">
+                        <p style="color: rgb(38, 38, 185); font-size: 18px; cursor: pointer; text-align: left;font-family: phenomena-bold;
+                    padding-left: 15px;" onclick="dropdownshow() ">Explore Causes+</p>
+
+                        <div class=" dropdown-mobile" id="dropdown-mobile">
+                            <ul>
+                                <li class="dropdown-link">
+                                    <a href="">Disaster Management Program</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="">Education & Literacy Program</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="">Health Program</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="">Livehood restoration </a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="">Sustainability Program </a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="">Urban Poverty Program </a>
+                                </li>
+                                <div class="arrow "></div>
+                            </ul>
+                        </div>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+        <!--  header end -->
+
+
+        <div class=" banner banner_heath_program ">
+            <h2 id="edu_lit">Health Program</h1>
+                <div class="banner-icon">
+                    <img src="./disciple-fonts/disciple-fonts/Icon feather-home@2x.png" width="20px" height="20px" style="margin-right: 10px;margin-left: 10px;" alt=""> >
+                    <a href="" id="cause_dis_man"> <a href="">  Causes</a>> <a href="">Health</a>
+                </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6 urban-img">
+                    <img src="./disciple-fonts/disciple-fonts/jakayla-toney-IRGJenv7TxE-unsplash.png" alt="" height="300px " width="500px" class="img-responsive img-fluid">
+                </div>
+                <div class="col-md-6 urban-para">
+                    <p style="font-family: Phenomena-Regular; font-size: 19px;">Discipleship Centre health programs are community based, conducted through volunteers from the respective villages/ urban slums. They are trained through the project to spread awareness and to network with other government health services
+                        so that the facilities reach the people. We are empowering the people to be responsible for their health, by enabling them to work towards good environmental/ health practices.</p>
+                    <br><br><br>
+                    <!-- <button id="read_more_button_header">Read More</button> -->
+
+                </div>
+            </div>
+        </div>
+
+
+        <br><br><br><br><br>
+    </div>
+
+
+
+    <!-- form and video col section -->
+    <div class="container-fluid">
+        <div class="row" style="background-color: #07689F;">
+            <div class="col-md-3 ">
+                <!-- col-sm-6 col-6 -->
+                <p id="donation">Make Donation</p>
+                <h5 id="donor">Become a Donor</h5>
+                <!-- </div> -->
+                <div class="img_heart_donation col-sm-6 col-6">
+                    <img src="./disciple-fonts/disciple-fonts/hands-heart.png" width="250px" id="heart_img">
+                </div>
+            </div>
+
+
+            <div class="col-md-3 col-sm-12 col-12 text-center">
+                <input type="text" class="inputs input1 mt-5 p-2" placeholder="Enter name">
+                <input type="text" class="inputs mt-3 input1 p-2" placeholder="Enter email">
+                <input type="text" class="inputs mt-3 input1 p-2" placeholder="Mobile Number">
+            </div>
+
+            <div class="col-md-3 col-sm-12 col-12 text-center">
+                <input type="text" class="inputs mt-5 p-2 input1" placeholder="Amount">
+
+                <p style="color: rgb(216, 223, 238);margin-bottom: 20px;font-size: 18px;;font-family: Phenomena-Regular;" class="pt-4 ml-3">Preferred Payment Method</p>
+                <select name="Bank-transfer" id="Bank-transfer" class="input1">
+                <option value="Bank-Transfer/UPI" >Bank-Transfer/UPI</option>
+                
+              </select>
+
+            </div>
+
+
+            <div class="col-md-3 col-sm-12 col-12 text-center">
+                <img src="./disciple-fonts/disciple-fonts/donate-arrow-indicator.png" height="150px" class="text-center mx-auto " id="donation_arrow">
+                <button id="making_donation" class="input1">Make a Donation</button>
+                <p id="save_lives">Save Lives</p>
+            </div>
+
+
+        </div>
+
+
+
+
+
+        <!-- video section -->
+
+
+
+        <div class="row">
+            <div class="col-md-6 ">
+                <div id="latest_video_section">
+                    <h1 id="latest_video_heading">LATEST <span style="color: #40A8C4;">VIDEO</span></h1>
+                    <img src="./disciple-fonts/disciple-fonts/Group 82.png" height="40px" alt="">
+                </div>
+                <!--latest videos section-->
+                <div class="rs-vedio">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/X74WcOHusAI" frameborder="0" allowfullscreen></iframe>
+                    </div>
+
+                    <p class=" ml-4  py-md-3" style="color: white;font-weight: 600;">Watch our Community Video
+                        <br>Discipleship Center - Durgesh
+                    </p>
+
+                </div>
+
+
+
+            </div>
+
+            <!-- mobile veiw -->
+            <div class="container-fluid mobile-news-section">
+                <div id="newsAndEvents">
+                    <h1 style="font-family: SueEllenFrancisco-Regular;">NEWS <span style="color: #40A8C4;">& EVENTS</span></h1>
+                    <img src="./disciple-fonts/disciple-fonts/Group 83.png" height="50px" style="margin-left: 10px;margin-top: -10px;">
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 col-sm-6  col-6  my-5">
+                        <div class="card">
+                            <img src="./disciple-fonts/disciple-fonts/848c7c8ea88504c5ffedfe74906479f2.png" alt="">
+                            <div class="card-body">
+                                <h6 id="news_headline"> Covid - 19 Awareness and Relief program Phase II</h6>
+                                <p style="color:rgb(59, 54, 54);font-size: 14px;font-family: Phenomena-Regular;">Published on : <span style="color:blue">27 July, 2020</span></p>
+                                <button id="read_more_button-2">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3  col-sm-6 col-6 my-5">
+                        <div class="card">
+                            <img src="./disciple-fonts/disciple-fonts/aeb67c8aabdaa1d11221838dd969b0d3.png" alt="">
+                            <div class="card-body">
+                                <h6 id="news_headline"> Covid - 19 Awareness and Relief program Phase II</h6>
+                                <p style="color:rgb(59, 54, 54);font-size: 14px;font-family: Phenomena-Regular;">Published on : <span style="color:blue">27 July, 2020</span></p>
+                                <button id="read_more_button-2">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="icon-div-5">
+                    <i class="fas fa-arrow-circle-left" style="color: gray; margin-right: 10px;"></i>
+                    <i class="fas fa-arrow-circle-right" style="color: rgb(231, 176, 56);"></i>
+                </div>
+
+            </div>
+
+            <div class="col-md-6 backgroundPhoto">
+                <div id="newsAndEvents">
+                    <h1 style="font-family: SueEllenFrancisco-Regular;">NEWS <span style="color: #40A8C4;">& EVENTS</span></h1>
+                    <img src="./disciple-fonts/disciple-fonts/Group 83.png" height="50px" style="margin-left: 10px;margin-top: -10px;">
+                </div>
+
+                <div class="col-md-12 ">
+                    <div class="news_rows mt-5" style="background-color: white;">
+                        <div class="col-md-3">
+                            <img class="img-resposive" src="./disciple-fonts/disciple-fonts/848c7c8ea88504c5ffedfe74906479f2.png" height="110px" width="140px" style="margin-left: -15px;">
+
+                        </div>
+                        <div class="col-md-9">
+                            <h6 id="news_headline">Covid - 19 Awareness and Relief program Phase II <br> in Gurugram</h6>
+                            <div id="publish_button_sec">
+                                <p style="color:rgb(59, 54, 54);font-size: 12px;font-family: Phenomena-Regular;">Published on : <span style="color:blue">27 July, 2020</span></p>
+                                <button id="read_more_button">Read More</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-12 ">
+                    <div class="news_rows mt-2" style="background-color: white;">
+                        <div class="col-md-3">
+                            <img class="img-resposive" src="./disciple-fonts/disciple-fonts/e2b7636779d83642d74fe38729f0ea4f.png" height="110px" width="140px" style="margin-left: -15px;">
+
+                        </div>
+                        <div class="col-md-9">
+                            <h6 id="news_headline">356 Million Indians Are Under The <br>Age Of 25</h6>
+                            <div id="publish_button_sec">
+                                <p style="color:rgb(59, 54, 54);font-size: 12px;font-family: Phenomena-Regular;">Published on : <span style="color:blue">27 July, 2020</span></p>
+                                <button id="read_more_button">Read More</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-12 ">
+                    <div class="news_rows mt-2">
+                        <div class="col-md-3">
+                            <img class="img-resposive" src="./disciple-fonts/disciple-fonts/aeb67c8aabdaa1d11221838dd969b0d3.png" height="110px" width="140px" style="margin-left: -15px;">
+
+                        </div>
+                        <div class="col-md-9">
+                            <h6 id="news_headline">Discipleship Center's Works Hard Everyday</h6>
+                            <div id="publish_button_sec" class="mt-4">
+                                <p style="color:rgb(59, 54, 54);font-size: 12px;font-family: Phenomena-Regular;">Published on : <span style="color:blue">27 July, 2020</span></p>
+                                <button id="read_more_button">Read More</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br>
+
+
+    <!-- footer html -->
+
+    <div class="container-fluid footer">
+        <div class="row footer_box">
+            <div class="col-md-3 col-sm-12 col-12" id="logo_add">
+                <div class="logo_img  ">
+                    <img class="logo" src="./disciple-fonts/disciple-fonts/Group 63.png">
+
+                </div>
+                <div id="address_part">
+                    <p class="content">C-20,Community Center,1st floor,<br>nayyar Tower,janakpuri,new Delhi<br>Pin code-110 058 </p>
+                    <img class="social" src="./disciple-fonts/disciple-fonts/Group 64.png" alt="">
+                    <img class="social" src="./disciple-fonts/disciple-fonts/Group 65.png" alt="">
+                    <img class="social" src="./disciple-fonts/disciple-fonts/Group 66.png" alt="">
+                    <img class="social" src="./disciple-fonts/disciple-fonts/Group 67.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-2 content  col-sm-6  col-6" id="navigation">
+                <p style="font-family:phenomena-bold; ">Navigation</p>
+                <p>Home</p>
+                <P>Activities</P>
+                <p>Careers</p>
+                <p>News & Events</p>
+            </div>
+            <div class="col-md-2 content col-sm-6 col-6" id="about_us_sec">
+                <p style="font-family:phenomena-bold;">About us</p>
+                <p>Our Profile</p>
+                <P>Option 2</P>
+                <p>Option 3</p>
+
+            </div>
+            <div class="col-md-2 content col-sm-6  col-12" id="navigation">
+                <p style="font-family:phenomena-bold;">Media</p>
+                <p>News & Events</p>
+                <P>Images Gallery</P>
+                <p>Video Gallery</p>
+                <p></p>
+            </div>
+            <div class="col-md-2 content  col-sm-6 col-12" id="contact_us">
+                <p style="font-family:phenomena-bold;">Contact us</p>
+                <p>(+91) 11255-71401</p>
+                <p id="gmail_id"><u>discipleship1974@gmail.com</u> <br class="break_line"> <br class="break_line"> </p>
+
+                <img class="social socials" src="./disciple-fonts/disciple-fonts/Group 64.png">
+                <img class="social socials" src="./disciple-fonts/disciple-fonts/Group 65.png">
+                <img class="social socials" src="./disciple-fonts/disciple-fonts/Group 66.png">
+                <img class="social socials" src="./disciple-fonts/disciple-fonts/Group 67.png">
+
+
+            </div>
+        </div>
+        <hr class="divide">
+        <div class="container-fluid">
+            <div class="row footer_box">
+                <div class="col-md-9 content1">
+                    <p>@2021,Discipleship Center | All Rights Reserved</p>
+                </div>
+                <div class="col-md-3 content1 ">
+                    <p id="privacy">Privacy<span style="margin-left: 20px;">Terms & Condition</span></p><br>
+                    <p id="term_cond">Design with <i class="fas fa-heart"></i> by Upshot</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function slideshow() {
+            var x = document.getElementById('check_class');
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none"
+            };
+        }
+    </script>
+
+    <script>
+        function dropdownshow() {
+            var y = document.getElementById('dropdown-mobile');
+            if (y.style.display === "none") {
+                y.style.display = "block";
+            } else {
+                y.style.display = "none"
+            };
+        }
+    </script>
+</body>
+
+</html>

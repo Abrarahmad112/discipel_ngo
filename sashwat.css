@@ -1,0 +1,1160 @@
+@font-face {
+    font-family: phenomena-Black;
+    src: url(./disciple-fonts/disciple-fonts/Phenomena-Black.ttf);
+}
+
+@font-face {
+    font-family: phenomena-Bold;
+    src: url(./disciple-fonts/disciple-fonts/Phenomena-Bold.ttf);
+}
+
+@font-face {
+    font-family: Phenomena-ExtraBold;
+    src: url(./disciple-fonts/disciple-fonts/Phenomena-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Phenomena-ExtraLight;
+    src: url(./disciple-fonts/disciple-fonts/Phenomena-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Phenomena-Light;
+    src: url(./disciple-fonts/disciple-fonts/Phenomena-Light.ttf);
+}
+
+@font-face {
+    font-family: Phenomena-Regular;
+    src: url(./disciple-fonts/disciple-fonts/Phenomena-Regular.ttf);
+}
+
+@font-face {
+    font-family: Phenomena-Thin;
+    src: url(./disciple-fonts/disciple-fonts/Phenomena-Thin.ttf);
+}
+
+@font-face {
+    font-family: SueEllenFrancisco-Regular;
+    src: url(./disciple-fonts/disciple-fonts/SueEllenFrancisco-Regular.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+
+/* header css */
+
+
+/* header start */
+
+.header {
+    background-color: #CCCFF2;
+}
+
+.header1 {
+    background-color: #CCF1F2;
+    overflow-x: hidden;
+}
+
+#explore-mobile {
+    display: none;
+}
+
+.header-img img {
+    height: 60px;
+    width: 260px;
+    margin-top: 12px;
+    mix-blend-mode: darken;
+    margin-left: 100px;
+    background-image: url(./disciple-fonts/disciple-fonts/Image\ 1.png);
+    background-blend-mode: screen;
+}
+
+.banner {
+    background: url('./disciple-fonts/disciple-fonts/moein-rezaalizade-4pc1GpZhJP0-unsplash.png') no-repeat 0 0;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.banner_project {
+    background: url('./disciple-fonts/disciple-fonts/hand-5040992_1920.png') no-repeat 0 0;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.banner_contact_us {
+    background: url('./disciple-fonts/disciple-fonts/vecteezy_e-mail-on-phone-concept_2256946.png') no-repeat 0 0;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.banner_aboutus {
+    background: url('./disciple-fonts/disciple-fonts/a54f8d61237de440dcf55f38317776ec.png') no-repeat 0 0;
+    background-size: contain;
+    width: 100%;
+    height: 400px;
+}
+
+.nav-links>ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    position: relative !important;
+}
+
+.nav-link>a {
+    line-height: 4rem;
+    color: black;
+    padding: 0 1rem;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    display: flex;
+    font-weight: 900;
+    font-family: phenomena-bold;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.nav-link:hover a {
+    transform: scale(1.1);
+}
+
+.dropdown {
+    position: absolute !important;
+    top: 100%;
+    left: 0;
+    width: 18rem;
+    transform: translateY(10px);
+    opacity: 0;
+    cursor: pointer;
+    transition: .5s;
+    background-color: #fff;
+}
+
+.dropdown-link>a {
+    /* background-color: #fff; */
+    display: flex;
+    color: black;
+    padding: .5rem 1rem .5rem 2rem;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    font-weight: 100;
+    font-family: phenomena-bold;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.nav-links li {
+    padding: 0rem 1rem 0rem 0rem;
+    text-align: center;
+}
+
+.dropdown ul {
+    list-style: none;
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    top: -6.5px;
+    left: 90px;
+    width: 11px;
+    height: 11px;
+    background-color: #fff;
+    transform: rotate(45deg);
+}
+
+.nav-link:hover>.dropdown,
+.dropdown-link:hover>.dropdown {
+    transform: translate(0, 0);
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+/* heaader end */
+
+.main-img {
+    width: 100%;
+}
+
+.banner {
+    background-color: #EAEAEA;
+}
+
+.banner-icon {
+    display: flex;
+    color: #fff;
+    margin-left: 95px;
+    letter-spacing: 2px;
+}
+
+.banner-icon a {
+    color: #fff;
+    text-decoration: none;
+    font-family: phenomena-bold;
+    font-size: 20px;
+    font-weight: 300 !important;
+    letter-spacing: 1px;
+}
+
+.banner-icon i {
+    font-size: 26px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.banner h2 {
+    color: #fff;
+    font-family: SueEllenFrancisco-Regular;
+    font-size: 40px;
+    padding-left: 100px;
+    padding-top: 80px;
+}
+
+#read_more_button_header {
+    background-color: #FFD868;
+    border-radius: 100px;
+    padding: 10px 40px 10px 40px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px 1px rgb(185, 183, 183);
+    border: none;
+    font-family: Phenomena-Regular;
+}
+
+#read_more_button_ourstory {
+    background-color: #FFD868;
+    border-radius: 100px;
+    padding: 10px 60px 10px 60px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px 1px rgb(185, 183, 183);
+    border: none;
+    font-family: Phenomena-Regular;
+}
+
+
+/* form and video css */
+
+#heart_img {
+    margin-left: 40px;
+    margin-top: -62px;
+}
+
+#donation {
+    margin-left: 90px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgb(223, 215, 215);
+    font-family: phenomena-bold;
+}
+
+#donor {
+    margin-left: 90px;
+    color: white;
+    font-size: 39px;
+    margin-top: -15px;
+    font-family: SueEllenFrancisco-Regular;
+}
+
+.inputs {
+    border-radius: 100px;
+    background-color: transparent;
+    border: 2px solid rgb(149, 170, 214);
+    box-shadow: 0 0 10px 0.9px rgb(95, 95, 95);
+}
+
+.inputs::placeholder {
+    color: rgb(216, 223, 238);
+    padding-left: 20px;
+    font-family: Phenomena-Regular;
+}
+
+select {
+    border-radius: 100px;
+    color: rgb(216, 223, 238);
+    background-color: transparent;
+    width: 200px;
+    height: 45px;
+    padding-left: 10px;
+    box-shadow: 0 0 10px 0.9px rgb(95, 95, 95);
+    border: 2px solid rgb(149, 170, 214);
+}
+
+#making_donation {
+    background-color: #FFD868;
+    color: rgb(51, 50, 50);
+    font-weight: 700;
+    padding: 10px 40px 10px 40px;
+    margin-left: 10px;
+    font-family: phenomena-Black;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 0 0 10px 0.9px rgb(70, 69, 69);
+    font-size: 18px;
+}
+
+#save_lives {
+    color: rgb(216, 223, 238);
+    margin-left: 70px;
+    font-family: Phenomena-Regular;
+}
+
+
+/* footer css */
+
+.footer {
+    margin-top: 50px;
+    border: solid black 3px;
+    background-color: #212121;
+    padding: 30px;
+}
+
+.footer_box {
+    padding: 0px 100px 0px 100px;
+}
+
+.logo {
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.social {
+    height: 30px;
+}
+
+.content {
+    color: white;
+    font-family: phenomena-regular;
+    font-size: 20px;
+}
+
+.content1 {
+    color: white;
+    font-family: phenomena-bold;
+    font-size: 19px;
+}
+
+.divide {
+    background-color: white;
+    margin: 0px 100px 30px 100px;
+}
+
+
+/* contact us */
+
+.box {
+    font-family: Phenomena-Regular;
+}
+
+.box2 {
+    padding: 10px;
+    padding-left: 20px;
+    border: solid black 3px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.box2 h1 {
+    margin: 10px 0px 10px 0px;
+}
+
+.box2 p {
+    margin: 20px 0px 40px 0px;
+}
+
+.box3 {
+    margin-left: 70px;
+    margin-bottom: 30px;
+    padding-top: 70px;
+}
+
+.box3 div {
+    margin-bottom: 30px;
+}
+
+.form1 {
+    margin-left: 20px;
+}
+
+.form2 {
+    margin-left: 20px;
+}
+
+.form1 input {
+    padding-left: 70px;
+    width: 240px;
+    height: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.form4 input {
+    padding-left: 50px;
+    width: 240px;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: -30px;
+}
+
+.form2 input {
+    padding-left: 70px;
+    width: 96%;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.form3 input {
+    padding-left: 70px;
+    padding-bottom: 130px;
+    ;
+    width: 92.5%;
+    height: 180px;
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.robo {
+    width: 80%;
+    padding: 10px 10px 0px 10px;
+    margin-left: 35px;
+    height: 70px;
+    border: solid black 2px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.robo input {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 12px;
+}
+
+.robo p {
+    position: relative;
+    left: 40px;
+    bottom: 35px;
+}
+
+.robo img {
+    height: 30px;
+    position: absolute;
+    left: 180px;
+    bottom: 15px;
+}
+
+.form1 img {
+    z-index: 1;
+    position: absolute;
+    left: 20px;
+    top: 2px;
+}
+
+.form4 img {
+    position: absolute;
+    left: 0px;
+    top: 15px;
+    height: 20px;
+}
+
+.form2 img {
+    position: absolute;
+    left: 38px;
+    top: 232px;
+}
+
+.form3 img {
+    position: absolute;
+    left: 38px;
+    top: 300px;
+}
+
+.form3 #extend {
+    position: absolute;
+    left: 500px;
+    top: 420px;
+}
+
+.submit button {
+    padding: 7px;
+    width: 150px;
+    background-color: #FFD868;
+    border-color: #FFD868;
+    box-shadow: none;
+    margin-left: 100px;
+    border-radius: 30px;
+}
+
+.phone {
+    height: 25px;
+}
+
+
+/* bihar project */
+
+.delhi_project {
+    background-color: white;
+    padding-top: 50px;
+}
+
+
+/* mission&vission */
+
+.core {
+    padding-top: 30px;
+}
+
+.box4 {
+    margin-top: 20px;
+    padding-left: 50px!important;
+    padding-right: 50px!important;
+    width: 100px!important;
+    margin-bottom: 20px !important;
+    background-color: lightblue !important;
+    height: 500px;
+    width: 1000px;
+}
+
+.box4 h1 {
+    text-align: center;
+    margin-bottom: 50px !important;
+    /* padding-left:10px; */
+}
+
+.inp {
+    border-radius: 100px;
+    background-color: transparent;
+    border: 2px solid rgb(149, 170, 214);
+    box-shadow: 0 0 10px 0.9px rgb(95, 95, 95);
+}
+
+.inp::placeholder {
+    color: rgb(216, 223, 238);
+    padding-left: 20px;
+    font-family: Phenomena-Regular;
+}
+
+.box4 input {
+    background-color: #07689F !important;
+    margin-bottom: 20px;
+    width: 220px;
+}
+
+.box4 button {
+    padding: 7px !important;
+    width: 220px !important;
+    background-color: #FFD868 !important;
+    border-color: #FFD868 !important;
+    font-family: phenomena-regular;
+}
+
+.box4 p {
+    font-family: phenomena-regular;
+    /* padding-left:40px;    */
+    text-align: center;
+}
+
+.box4 img {
+    width: 400px;
+    padding-left: 70px;
+}
+
+.boxes {
+    height: 330px;
+}
+
+.boxes div {
+    margin-top: 40px;
+}
+
+.mav1 {
+    margin-top: 100px;
+}
+
+.mav {
+    padding-right: 20px;
+}
+
+.mav h3 {
+    font-family: phenomena-extrabold;
+    margin-top: 25px;
+}
+
+.mav p {
+    font-family: phenomena-regular;
+    font-size: 19px;
+}
+
+.charity {
+    display: flex;
+}
+
+#div1 {
+    height: 90px;
+    position: relative;
+    left: 450px;
+    top: 90px;
+    width: 100px;
+}
+
+#div2 {
+    height: 90px;
+    position: relative;
+    left: 1040px;
+    top: 90px;
+    width: 100px;
+}
+
+#div3 {
+    height: 90px;
+    position: relative;
+    left: 90px;
+    bottom: 90px;
+    width: 100px;
+}
+
+#div4 {
+    height: 90px;
+    position: relative;
+    left: 700px;
+    bottom: 90px;
+    width: 100px;
+}
+
+.content2 {
+    font-family: SueEllenFrancisco-Regular;
+    color: white;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+
+.content2 p {
+    font-family: phenomena-regular;
+    font-size: 20px;
+}
+
+
+/* media query */
+
+
+/* for 1200 */
+
+@media (max-width:1200px) {
+    .logo {
+        height: 45px;
+    }
+    #donor {
+        font-size: 28px;
+    }
+    .content1 {
+        font-size: 15px;
+    }
+}
+
+
+/* 1200 end */
+
+@media (max-width:1024px) {
+    .nav-link>a {
+        line-height: 4rem;
+        color: black;
+        padding: 0 1rem;
+        font-size: 1rem;
+        display: flex;
+        font-weight: 700;
+        font-family: phenomena-bold;
+        align-items: center;
+        text-decoration: none;
+        display: block;
+    }
+    .header-img img {
+        height: 40px;
+        width: 150px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .break_line {
+        display: none;
+    }
+    .banner_contact_us {
+        background-size: 100% 300px;
+    }
+    .banner_contact_us h2 {
+        padding-left: 30px !important;
+        padding-top: 20px !important;
+    }
+    .banner-icon {
+        margin-left: 35px;
+    }
+}
+
+
+/* for 1024 */
+
+@media (max-width:1024px) {
+    .logo {
+        height: 33px;
+    }
+}
+
+
+/* 1024 end */
+
+
+/* for 992 */
+
+@media screen and (max-width: 992px) {
+    #donor {
+        font-size: 25px;
+        margin-left: 60px;
+    }
+    #donation {
+        margin-left: 60px;
+    }
+    #pref_pay_method {
+        font-size: 15px !important;
+        margin-left: 0px !important;
+    }
+    #heart_img {
+        margin-left: 10px;
+        width: 200px;
+        margin-top: -40px;
+    }
+    .content1 {
+        font-size: 13px;
+    }
+    /* contact us.html */
+    #follow_us {
+        display: flex;
+        justify-content: center;
+    }
+    .box3 {
+        margin-left: 10px;
+        margin-bottom: 30px;
+        padding-top: 70px;
+    }
+}
+
+
+/*  992  end*/
+
+
+/* 879 for blue box and footer */
+
+@media screen and (max-width: 879px) {
+    #making_donation {
+        padding: 10px 20px 10px 20px;
+    }
+    #save_lives {
+        margin-left: 0px;
+    }
+    #Bank-transfer {
+        padding: 0px;
+        margin-left: 15px;
+        width: 190px;
+        margin-top: 8px;
+    }
+    .inputs {
+        padding: 0px;
+        margin-left: 15px;
+        width: 190px;
+        margin-top: 8px;
+    }
+    .content1 {
+        font-size: 11px;
+    }
+    #privacy {
+        margin-left: 0;
+    }
+    #TandC {
+        margin-left: 10px !important;
+    }
+}
+
+
+/* 879 end */
+
+@media screen and (max-width: 767px) {
+    .logo {
+        height: 50px;
+    }
+    .social {
+        height: 20px;
+        margin-bottom: 20px;
+    }
+    .footer_box {
+        padding: 0px 30px 0px 30px;
+        line-height: normal;
+    }
+    #navigation {
+        line-height: 18px;
+        padding-left: 80px;
+        margin-bottom: 60px;
+    }
+    #about_us_sec {
+        line-height: 18px;
+        padding-left: 50px;
+    }
+    #logo_add {
+        padding-left: 50px;
+        padding-right: 0px;
+        line-height: 20px;
+    }
+    #contact_us {
+        padding-left: 20px;
+        padding-right: 0px;
+        margin-left: 30px;
+    }
+    .divide {
+        margin: 20px 0px 30px 0px;
+    }
+    .content1 {
+        margin-left: 4%;
+    }
+    #privacy {
+        margin-left: 0px;
+    }
+    #term_cond {
+        margin-left: 0px;
+    }
+    #address_part {
+        display: none;
+    }
+    #gmail_id::after {
+        content: "C-20,Community Center,1st floor,nayyar Tower,janakpuri,new Delhi Pin code-110 058 ";
+    }
+    .socials {
+        display: inline-block;
+    }
+    #navigation {
+        padding-left: 50px;
+    }
+    /* footer end */
+    /* header */
+    .dropdown {
+        position: absolute !important;
+        top: 100%;
+        /* left: 25%; */
+        width: 100%;
+        transform: translateY(10px);
+        opacity: 0;
+        cursor: pointer;
+        transition: .5s;
+        background-color: #fff;
+    }
+    .dropdown-link>a {
+        display: flex;
+        color: black;
+        padding: .5rem 1rem .5rem 2rem;
+        text-decoration: none;
+        list-style: none;
+        align-items: center;
+        font-weight: 100;
+        font-family: phenomena-bold;
+        justify-content: space-between;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    #dropdown-mobile {
+        display: none;
+        cursor: pointer;
+    }
+    .dropdown-link:hover>.dropdown {
+        transform: translate(0, 0);
+        opacity: 1;
+        pointer-events: auto;
+    }
+    .nav-link:hover a {
+        transform: none;
+        text-decoration: none;
+    }
+    .nav-link>a {
+        line-height: 4rem;
+        color: black;
+        padding: 0 1rem;
+        letter-spacing: 1px;
+        font-size: 1.2rem;
+        display: flex;
+        font-weight: 900;
+        font-family: phenomena-bold;
+        align-items: left;
+        justify-content: space-between;
+    }
+    .nav-links>ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+    }
+    #explore-desk {
+        display: none;
+    }
+    #explore-mobile {
+        display: block;
+    }
+    .mobile_icon {
+        display: inline-block !important;
+        position: relative;
+        left: 92%;
+        bottom: 40px;
+        margin-top: 0px;
+        cursor: pointer;
+    }
+    #check_class {
+        display: none;
+    }
+    .dropdown ul {
+        list-style: none;
+        position: relative;
+    }
+    .arrow {
+        position: absolute;
+        top: -6.5px;
+        left: 50%;
+        width: 11px;
+        height: 11px;
+        background-color: #fff;
+        transform: rotate(45deg);
+    }
+    .urban-para {
+        order: -1;
+    }
+    /* header end */
+    /* blue box donation  */
+    #donation,
+    #donor {
+        padding-left: 5%;
+    }
+    #donor {
+        font-size: 25px;
+    }
+    .img_heart_donation {
+        padding-left: 16% !important;
+        position: relative;
+        left: 53%;
+        bottom: 30%;
+    }
+    #heart_img {
+        margin-left: 0px;
+        width: 100px;
+        /* margin-top: -40px; */
+    }
+    .input1 {
+        width: 70% !important;
+    }
+    .preferred_method {
+        display: flex;
+        justify-content: center;
+    }
+    #making_donation {
+        margin-top: 30px;
+    }
+    #donation_arrow {
+        display: none;
+    }
+    #save_lives {
+        margin-left: 0px;
+    }
+    /* blue box donation end */
+    .del_proj {
+        text-align: center;
+        /* padding: 0px !important; */
+    }
+    .banner_project {
+        height: 300px;
+    }
+    #bih_proj {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .project_head {
+        padding-top: 20px !important;
+    }
+    /* contactus.html */
+    .form4 img {
+        position: absolute;
+        left: 50px;
+        top: 15px;
+        height: 20px;
+    }
+    .form4 input {
+        padding-left: 70px;
+        width: 92%;
+        height: 50px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+    .form1 input {
+        padding-left: 70px;
+        width: 95%;
+        height: 50px;
+        margin-right: 50px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    .form2 img {
+        position: absolute;
+        left: 38px;
+        top: 300px;
+    }
+    .form3 img {
+        position: absolute;
+        left: 38px;
+        top: 370px;
+    }
+    .robo {
+        width: 87% !important;
+        padding: 10px 10px 0px 10px;
+        margin-left: 35px;
+        height: 70px;
+        border: solid black 2px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    .robo input {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: 12px;
+    }
+    .robo img {
+        height: 30px;
+        position: absolute;
+        left: 400px;
+        bottom: 15px;
+    }
+    .submit button {
+        margin-left: 5%;
+    }
+    #follow_us {
+        margin-top: 00px !important;
+    }
+    .box3 {
+        padding-top: 0px !important;
+    }
+}
+
+
+/* 575 */
+
+@media screen and (max-width: 575px) {
+    #contact_us {
+        padding-left: 0px;
+        line-height: 10px;
+        margin-left: 0px;
+    }
+    .footer_box {
+        padding: 0px 30px 0px 30px;
+        line-height: normal;
+    }
+    #gmail_id::after {
+        margin-top: 50px !important;
+        line-height: 26px;
+        margin-right: 20px;
+    }
+    .divide {
+        margin: 20px 0px 30px 0px;
+    }
+    .content1 {
+        margin-left: -15px !important;
+        margin-right: 0% !important;
+        padding: 0px !important;
+    }
+    #logo_add {
+        padding-left: 00px;
+    }
+    #navigation {
+        padding-left: 0px;
+        margin-bottom: 20px;
+        line-height: 10px;
+    }
+    #donation,
+    #donor {
+        padding-left: 0% !important;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .robo img {
+        left: 350px;
+    }
+}
+
+
+/* 575 end */
+
+@media screen and (max-width: 485px) {
+    /* for blue box */
+    .input1 {
+        width: 100% !important;
+        margin-left: 0px !important;
+    }
+    #donation,
+    #donor {
+        margin-left: 20px;
+    }
+    .logo {
+        width: 140px;
+        height: 40px;
+    }
+
+
+
+/* abrar css 485 */
+
+.banner_project {
+    background: url('./disciple-fonts/disciple-fonts/hand-5040992_1920.png') no-repeat 0 0;
+    background-size: 100% 180px;
+    width: 100%;
+    height: 180px;
+}
+
+.banner-icon {
+    display: none;
+}
+
+#para-margin {
+    padding: 10px;
+    padding-right: 10px;
+}
+}
+
+/* 485 end */
+
+@media screen and (max-width: 450px) {
+    .form2 img {
+        top: 330px;
+    }
+    .form3 img {
+        top: 400px;
+    }
+    .robo img {
+        left: 270px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .robo img {
+        left: 210px;
+    }
+}
